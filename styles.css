@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: crimson;
+  }
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Pirata One';
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .topnav a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .column {
+    float: left;
+    padding: 10px;
+    font-family: 'Pirata One';
+  }
+  
+  .column.side {
+    width: 25%;
+    font-family: 'Pirata One';
+  }
+  
+  .column.middle {
+    width: 50%;
+    font-family: 'Pirata One';
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+    font-family: 'Pirata One';
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  
+  
+  .footer {
+    background-color: #b68c8c50;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a:link, a:visited {
+    background-color: #000000;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  a:hover, a:active {
+    background-color: rgb(56, 55, 55);
+  }
